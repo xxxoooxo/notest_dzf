@@ -1,0 +1,10 @@
+must_key:
+  - "noteId"
+  - "star"
+  - "remindTime"
+  - "remindType"
+option_key:
+  - - {"key": "star", "code": 200}
+  - - {"key": "remindTime", "code": 200}
+  - - {"key": "remindType", "code": 200}
+base: {}

@@ -1,0 +1,73 @@
+[INFO]custom_logs.py:54-21:09:58.654----------------------------------------------------
+[INFO]custom_logs.py:58-21:09:58.674-TestCase: testCase01_major of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-21:09:58.675-Describe: 上传/更新便签信息主体，主用例
+[INFO]test_notesvr_set_noteinfo_post.py:37-21:09:58.677-上传便签信息主体
+[INFO]api_demo.py:14-21:09:58.679-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-21:09:58.681-request body: {'noteId': '1684156198677TestNote', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-21:09:58.962-response code: 200
+[INFO]api_demo.py:18-21:09:58.964-response body: {'responseTime': 29, 'infoVersion': 1, 'infoUpdateTime': 1684156198330}
+[INFO]custom_logs.py:54-21:09:58.966----------------------------------------------------
+[INFO]custom_logs.py:58-21:09:58.968-TestCase: testCase02_input_check_0_noteId of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-21:09:58.970-Describe: 上传/更新便签信息主体，所有字段的必填校验 [with key='noteId']
+[INFO]api_demo.py:14-21:09:58.971-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-21:09:58.974-request body: {'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-21:09:59.165-response code: 500
+[INFO]api_demo.py:18-21:09:59.168-response body: {'errorCode': -7, 'errorMsg': '参数不合法！'}
+[INFO]custom_logs.py:54-21:09:59.170----------------------------------------------------
+[INFO]custom_logs.py:58-21:09:59.172-TestCase: testCase02_input_check_1_star of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-21:09:59.173-Describe: 上传/更新便签信息主体，所有字段的必填校验 [with key='star']
+[INFO]api_demo.py:14-21:09:59.175-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-21:09:59.177-request body: {'noteId': 'abc', 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-21:09:59.419-response code: 200
+[INFO]api_demo.py:18-21:09:59.421-response body: {'responseTime': 27, 'infoVersion': 1, 'infoUpdateTime': 1684156198783}
+[INFO]custom_logs.py:54-21:09:59.425----------------------------------------------------
+[INFO]custom_logs.py:58-21:09:59.427-TestCase: testCase02_input_check_2_remindTime of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-21:09:59.428-Describe: 上传/更新便签信息主体，所有字段的必填校验 [with key='remindTime']
+[INFO]api_demo.py:14-21:09:59.430-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-21:09:59.432-request body: {'noteId': 'abc', 'star': 0, 'remindType': 0}
+[INFO]api_demo.py:17-21:09:59.682-response code: 200
+[INFO]api_demo.py:18-21:09:59.684-response body: {'responseTime': 24, 'infoVersion': 2, 'infoUpdateTime': 1684156199048}
+[INFO]custom_logs.py:54-21:09:59.687----------------------------------------------------
+[INFO]custom_logs.py:58-21:09:59.689-TestCase: testCase02_input_check_3_remindType of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-21:09:59.690-Describe: 上传/更新便签信息主体，所有字段的必填校验 [with key='remindType']
+[INFO]api_demo.py:14-21:09:59.692-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-21:09:59.694-request body: {'noteId': 'abc', 'star': 0, 'remindTime': 0}
+[INFO]api_demo.py:17-21:09:59.930-response code: 200
+[INFO]api_demo.py:18-21:09:59.933-response body: {'responseTime': 33, 'infoVersion': 3, 'infoUpdateTime': 1684156199301}
+[INFO]custom_logs.py:74-23:23:34.180-hello word!!!
+[INFO]custom_logs.py:54-23:24:00.439----------------------------------------------------
+[INFO]custom_logs.py:58-23:24:00.458-TestCase: testCase01_major of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-23:24:00.459-Describe: 上传/更新便签信息主体，主用例
+[INFO]test_notesvr_set_noteinfo_post.py:37-23:24:00.461-上传便签信息主体
+[INFO]api_demo.py:14-23:24:00.463-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-23:24:00.465-request body: {'noteId': '1684164240461TestNote', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-23:24:00.731-response code: 200
+[INFO]api_demo.py:18-23:24:00.733-response body: {'responseTime': 32, 'infoVersion': 1, 'infoUpdateTime': 1684164239977}
+[INFO]custom_logs.py:54-23:24:00.736----------------------------------------------------
+[INFO]custom_logs.py:58-23:24:00.737-TestCase: testCase02_input_check_0_noteId of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-23:24:00.739-Describe: 上传/更新便签信息主体，所有字段的必填校验 [with key='noteId']
+[INFO]api_demo.py:14-23:24:00.741-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-23:24:00.743-request body: {'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-23:24:00.949-response code: 500
+[INFO]api_demo.py:18-23:24:00.952-response body: {'errorCode': -7, 'errorMsg': '参数不合法！'}
+[INFO]custom_logs.py:54-23:24:00.954----------------------------------------------------
+[INFO]custom_logs.py:58-23:24:00.956-TestCase: testCase02_input_check_1_star of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-23:24:00.957-Describe: 上传/更新便签信息主体，所有字段的必填校验 [with key='star']
+[INFO]api_demo.py:14-23:24:00.959-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-23:24:00.961-request body: {'noteId': 'abc', 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-23:24:01.282-response code: 200
+[INFO]api_demo.py:18-23:24:01.284-response body: {'responseTime': 53, 'infoVersion': 4, 'infoUpdateTime': 1684164240522}
+[INFO]custom_logs.py:54-23:24:01.287----------------------------------------------------
+[INFO]custom_logs.py:58-23:24:01.289-TestCase: testCase02_input_check_2_remindTime of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-23:24:01.291-Describe: 上传/更新便签信息主体，所有字段的必填校验 [with key='remindTime']
+[INFO]api_demo.py:14-23:24:01.293-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-23:24:01.295-request body: {'noteId': 'abc', 'star': 0, 'remindType': 0}
+[INFO]api_demo.py:17-23:24:01.551-response code: 200
+[INFO]api_demo.py:18-23:24:01.553-response body: {'responseTime': 26, 'infoVersion': 5, 'infoUpdateTime': 1684164240804}
+[INFO]custom_logs.py:54-23:24:01.556----------------------------------------------------
+[INFO]custom_logs.py:58-23:24:01.558-TestCase: testCase02_input_check_3_remindType of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-23:24:01.560-Describe: 上传/更新便签信息主体，所有字段的必填校验 [with key='remindType']
+[INFO]api_demo.py:14-23:24:01.561-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-23:24:01.564-request body: {'noteId': 'abc', 'star': 0, 'remindTime': 0}
+[INFO]api_demo.py:17-23:24:01.808-response code: 200
+[INFO]api_demo.py:18-23:24:01.810-response body: {'responseTime': 35, 'infoVersion': 6, 'infoUpdateTime': 1684164241057}

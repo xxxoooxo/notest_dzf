@@ -1,0 +1,90 @@
+[INFO]custom_logs.py:73 - 2023.05.13 17:32:50.061 - hello word!!!
+[INFO]custom_logs.py:73 - 17:33:25.718 - hello word!!!
+[INFO]custom_logs.py:73-17:33:53.606-hello word!!!
+[INFO]custom_logs.py:73-17:34:24.640-hello word!!!
+[INFO]api_demo.py:14-17:35:26.713-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:35:26.733-request body: {'noteId': '1683970526713TestNote', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:35:26.979-response code: 200
+[INFO]api_demo.py:18-17:35:26.982-response body: {'responseTime': 25, 'infoVersion': 1, 'infoUpdateTime': 1683970526760}
+[INFO]api_demo.py:14-17:36:51.412-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:36:51.429-request body: {'noteId': '1683970611412TestNote', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:36:51.684-response code: 200
+[INFO]api_demo.py:18-17:36:51.686-response body: {'responseTime': 27, 'infoVersion': 1, 'infoUpdateTime': 1683970611473}
+[INFO]api_demo.py:14-17:36:51.688-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:36:51.690-request body: {'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:36:51.905-response code: 500
+[INFO]api_demo.py:18-17:36:51.907-response body: {'errorCode': -7, 'errorMsg': '参数不合法！'}
+[INFO]custom_logs.py:57-17:39:14.949-TestCase: testCase01_major of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:58-17:39:14.965-Describe: 上传/更新便签信息主体，主用例
+[INFO]api_demo.py:14-17:39:14.967-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:39:14.969-request body: {'noteId': '1683970754967TestNote', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:39:15.241-response code: 200
+[INFO]api_demo.py:18-17:39:15.243-response body: {'responseTime': 37, 'infoVersion': 1, 'infoUpdateTime': 1683970755017}
+[INFO]custom_logs.py:57-17:39:15.245-TestCase: testCase02_input_check of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:58-17:39:15.247-Describe: 上传/更新便签信息主体，noteId必填校验
+[INFO]api_demo.py:14-17:39:15.248-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:39:15.250-request body: {'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:39:15.476-response code: 500
+[INFO]api_demo.py:18-17:39:15.478-response body: {'errorCode': -7, 'errorMsg': '参数不合法！'}
+[INFO]custom_logs.py:57-17:39:25.346-TestCase: testCase01_major of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:58-17:39:25.363-Describe: 上传/更新便签信息主体，主用例
+[INFO]api_demo.py:14-17:39:25.364-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:39:25.366-request body: {'noteId': '1683970765364TestNote', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:39:25.657-response code: 200
+[INFO]api_demo.py:18-17:39:25.659-response body: {'responseTime': 51, 'infoVersion': 1, 'infoUpdateTime': 1683970765420}
+[INFO]custom_logs.py:57-17:39:25.661-TestCase: testCase02_input_check of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:58-17:39:25.663-Describe: 上传/更新便签信息主体，noteId必填校验
+[INFO]api_demo.py:14-17:39:25.664-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:39:25.666-request body: {'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:39:25.872-response code: 500
+[INFO]api_demo.py:18-17:39:25.874-response body: {'errorCode': -7, 'errorMsg': '参数不合法！'}
+[INFO]custom_logs.py:54-17:39:59.339----------------------------------------------------
+[INFO]custom_logs.py:58-17:39:59.357-TestCase: testCase01_major of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-17:39:59.359-Describe: 上传/更新便签信息主体，主用例
+[INFO]api_demo.py:14-17:39:59.361-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:39:59.364-request body: {'noteId': '1683970799361TestNote', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:39:59.609-response code: 200
+[INFO]api_demo.py:18-17:39:59.611-response body: {'responseTime': 32, 'infoVersion': 1, 'infoUpdateTime': 1683970799383}
+[INFO]custom_logs.py:54-17:39:59.614----------------------------------------------------
+[INFO]custom_logs.py:58-17:39:59.615-TestCase: testCase02_input_check of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-17:39:59.617-Describe: 上传/更新便签信息主体，noteId必填校验
+[INFO]api_demo.py:14-17:39:59.618-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:39:59.621-request body: {'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:39:59.830-response code: 500
+[INFO]api_demo.py:18-17:39:59.832-response body: {'errorCode': -7, 'errorMsg': '参数不合法！'}
+[INFO]custom_logs.py:54-17:42:33.287----------------------------------------------------
+[INFO]custom_logs.py:58-17:42:33.304-TestCase: testCase01_major of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-17:42:33.306-Describe: 上传/更新便签信息主体，主用例
+[INFO]api_demo.py:14-17:42:33.308-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:42:33.310-request body: {'noteId': '1683970953308TestNote', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:42:33.568-response code: 200
+[INFO]api_demo.py:18-17:42:33.570-response body: {'responseTime': 40, 'infoVersion': 1, 'infoUpdateTime': 1683970953348}
+[INFO]custom_logs.py:54-17:42:39.083----------------------------------------------------
+[INFO]custom_logs.py:58-17:42:39.101-TestCase: testCase01_major of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-17:42:39.102-Describe: 上传/更新便签信息主体，主用例
+[INFO]api_demo.py:14-17:42:39.104-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:42:39.106-request body: {'noteId': '1683970959104TestNote', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:42:39.354-response code: 200
+[INFO]api_demo.py:18-17:42:39.355-response body: {'responseTime': 27, 'infoVersion': 1, 'infoUpdateTime': 1683970959126}
+[INFO]custom_logs.py:54-17:42:39.358----------------------------------------------------
+[INFO]custom_logs.py:58-17:42:39.359-TestCase: testCase02_input_check of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-17:42:39.361-Describe: 上传/更新便签信息主体，noteId必填校验
+[INFO]api_demo.py:14-17:42:39.362-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:42:39.364-request body: {'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:42:39.562-response code: 500
+[INFO]api_demo.py:18-17:42:39.564-response body: {'errorCode': -7, 'errorMsg': '参数不合法！'}
+[INFO]custom_logs.py:54-17:44:17.505----------------------------------------------------
+[INFO]custom_logs.py:58-17:44:17.522-TestCase: testCase01_major of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-17:44:17.523-Describe: 上传/更新便签信息主体，主用例
+[INFO]test_notesvr_set_noteinfo_post.py:32-17:44:17.525-上传便签信息主体
+[INFO]api_demo.py:14-17:44:17.527-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:44:17.529-request body: {'noteId': '1683971057525TestNote', 'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:44:17.803-response code: 200
+[INFO]api_demo.py:18-17:44:17.805-response body: {'responseTime': 28, 'infoVersion': 1, 'infoUpdateTime': 1683971057583}
+[INFO]custom_logs.py:54-17:44:17.808----------------------------------------------------
+[INFO]custom_logs.py:58-17:44:17.809-TestCase: testCase02_input_check of class NotesvrSetNoteinfoPost
+[INFO]custom_logs.py:59-17:44:17.811-Describe: 上传/更新便签信息主体，noteId必填校验
+[INFO]api_demo.py:14-17:44:17.813-request headers: {'Content-Type': 'application/json', 'X-user-key': '922061821', 'cookie': 'wps_sid=V02S8VvP576NYWKR2O-o2RH8lgmnv5Y00aefa8d90036f58bfd'}
+[INFO]api_demo.py:15-17:44:17.814-request body: {'star': 0, 'remindTime': 0, 'remindType': 0}
+[INFO]api_demo.py:17-17:44:18.040-response code: 500
+[INFO]api_demo.py:18-17:44:18.042-response body: {'errorCode': -7, 'errorMsg': '参数不合法！'}
